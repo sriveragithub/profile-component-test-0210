@@ -1,0 +1,73 @@
+:root {
+    --darkCyan: hsl(185, 75%, 39%);
+    --darkDesaturatedBlue: hsl(229, 23%, 23%);
+    --darkGrayishBlue: hsl(227, 10%, 46%);
+    --darkGray: hsl(0, 0%, 59%);
+}
+
+body {
+    font-size: 1.125rem;
+    width: 100%;
+    height: 100%;
+    background-color: var(--darkCyan);
+}
+
+
+.container {
+    width: 350px;
+    height: 420px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.card-top {
+    background-color: var(--darkGrayishBlue);
+    background-image: url(/images/bg-pattern-top.svg);
+}
+
+.card-middle {
+    background-color: white;
+}
+
+
+img {
+    position:absolute;
+    border-radius: 50%;
+    margin-right: auto;
+}
+
+.profile-info {
+    justify-self: center;
+    align-self: center;
+}
+
+.card-bottom {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.stats {
+    justify-self: center;
+    align-self: center;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.stat-name {
+    font-style: italic;
+    font-size: .75rem;
+    color: var(--darkGrayishBlue);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

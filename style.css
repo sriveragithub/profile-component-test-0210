@@ -114,7 +114,7 @@ body {
 
 /* GRAPHICS (CIRCLES) */
 .circles .c1,
-.circles .c2{
+.circles .c2 {
     position: absolute;
     width: 800px;
     height: auto;

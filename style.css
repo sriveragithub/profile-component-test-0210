@@ -3,13 +3,20 @@
     --darkDesaturatedBlue: hsl(229, 23%, 23%);
     --darkGrayishBlue: hsl(227, 10%, 46%);
     --darkGray: hsl(0, 0%, 59%);
+    font-size: 18px
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    font-size: 1.125rem;
-    width: 100%;
-    height: 100%;
+    font-family: 'Kumbh Sans', sans-serif;
     background-color: var(--darkCyan);
+    line-height: 1.4;
+    overflow: hidden;
 }
 
 
@@ -18,38 +25,66 @@ body {
     height: 420px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     text-align: center;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 3px 3px 15px 1px var(--darkDesaturatedBlue);
+    position: relative;
 }
 
 .card-top {
-    background-color: var(--darkGrayishBlue);
-    background-image: url(/images/bg-pattern-top.svg);
+    background-image: url(/images/bg-pattern-card.svg);
+    background-size: cover;
 }
 
 .card-middle {
     background-color: white;
 }
 
-
-img {
-    position:absolute;
+.card-middle img {
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
-    margin-right: auto;
+    border: 3px solid white;
+    margin-top: -48px;
 }
 
 .profile-info {
     justify-self: center;
     align-self: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#profile-name {
+    opacity: 1;
+    font-weight: 700;
+}
+
+#city {
+    margin-top: 5px;
+    font-size: .875;
+}
+
+#age {
+    font-size: .75rem;
+}
+
+#age, #city {
+    font-weight: 400;
+    opacity: .8;
+    
 }
 
 .card-bottom {
     background-color: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    border-top: 1px solid hsla(0, 3%, 20%, 0.2);
 }
 
 .stats {
@@ -57,17 +92,40 @@ img {
     align-self: center;
 }
 
+.stat-value {
+    font-weight: 700;
+}
+
+
+.stat-name {
+    font-weight: 400;
+    font-size: .75rem;
+    color: var(--darkGrayishBlue);
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
 }
 
-.stat-name {
-    font-style: italic;
-    font-size: .75rem;
-    color: var(--darkGrayishBlue);
-}
-
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+/* GRAPHICS (CIRCLES) */
+.circles .c1,
+.circles .c2{
+    position: absolute;
+    width: 800px;
+    height: auto;
+}
+
+.circles .c1 {
+    top: -350px;
+    left: -175px;
+}
+
+.circles .c2 {
+    bottom: -250px;
+    right: -175px;
 }

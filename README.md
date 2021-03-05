@@ -2,6 +2,12 @@
 
 ![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
 
+## Notes from Creator! 👋
+
+This is a profile card component to demonstrate skills with creating components in HTML and CSS. See attached HTML and CSS files to dive into my design process and skill level.
+
+Netlify Link: https://relaxed-austin-b5a9d5.netlify.app/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.

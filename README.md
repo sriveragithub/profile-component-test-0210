@@ -4,7 +4,7 @@
 
 ## Notes from Creator! 👋
 
-This is a profile card component to demonstrate skills with creating components in HTML and CSS. See attached HTML and CSS files to dive into my design process and skill level.
+This is a profile card component to demonstrate skills with creating components in HTML and CSS. See attached HTML and CSS files to dive into my design process and skill level. The above image is an example of what I had to go off of when creating this project.
 
 Netlify Link: https://relaxed-austin-b5a9d5.netlify.app/
 
